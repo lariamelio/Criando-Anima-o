@@ -35,8 +35,8 @@ function draw() {
 }
 
 function setup() {
- createCanvas(400, 400);
- background ("white");
+ createCanvas(1000, 1000);
+ background ("purple");
  cor = color(10, 250, 250);
 }
 
@@ -46,8 +46,8 @@ function draw() {
 }
 
 function setup() {
- createCanvas(400, 400);
- background ("white");
+ createCanvas(1000, 1000);
+ background ("purple");
  cor = color(random(0, 255), random(0, 255), random(0, 255));
 }
 
@@ -67,7 +67,7 @@ function draw() {
 function draw() {
  fill(cor);
  circle(posicaoHorizontal,
- posicaoVertical, 50);
+ posicaoVertical, 10);
 if(mouseX < posicaoHorizontal) {
  posicaoHorizontal--;
 }
