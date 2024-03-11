@@ -9,7 +9,7 @@ function draw() {
 
 function draw () {
  fill ("red");
-  circle (200,200, 50);
+  circle (200,200, 10);
 }
 
 let cor;
@@ -20,7 +20,7 @@ function setup() {
 
 function draw () {
  fill ("red");
-  circle (200,200, 50);
+  circle (50,50, 15);
 }
 
 function setup() {
@@ -31,18 +31,18 @@ function setup() {
 
 function draw() {
   fill (cor);
-  circle (200, 200,50)
+  circle (30, 30,20)
 }
 
 function setup() {
- createCanvas(1000, 1000);
- background ("purple");
+ createCanvas(400, 400);
+ background ("white");
  cor = color(10, 250, 250);
 }
 
 function draw() {
   fill (cor);
-  circle (200, 200,50)
+  circle (200, 200,10)
 }
 
 function setup() {
@@ -52,8 +52,8 @@ function setup() {
 }
 
 function setup() {
- createCanvas(400, 400);
- background ("white");
+ createCanvas(1000, 1000);
+ background ("purple");
  cor = color(random(0, 255), random(0, 255), random(0, 255));
  posicaoHorizontal = 200;
  posicaoVertical = 200;
